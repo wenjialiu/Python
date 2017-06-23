@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314008C61EFC8DD700F35C1B /* AddFromContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314008C51EFC8DD700F35C1B /* AddFromContactsController.swift */; };
+		3141AAD31EF9DC2300E365D0 /* FaeAddUsernameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3141AAD21EF9DC2300E365D0 /* FaeAddUsernameCell.swift */; };
+		3143BCB01EFB3D7300CEC921 /* FaeContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143BCAF1EFB3D7300CEC921 /* FaeContact.swift */; };
+		3184BF851EF1EF9B006AE254 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3184BF841EF1EF9B006AE254 /* AddFriendViewController.swift */; };
+		31C0968E1EF3125700EF8962 /* FaeRecommendedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0968D1EF3125700EF8962 /* FaeRecommendedCell.swift */; };
+		31C096901EF31ACD00EF8962 /* FaeAddFriendOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0968F1EF31ACD00EF8962 /* FaeAddFriendOptionsCell.swift */; };
+		31CA5ADE1EF330F500F062B0 /* AddUsernameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA5ADD1EF330F500F062B0 /* AddUsernameController.swift */; };
+		31EF33C61EF07A3F00A8930F /* JustinHe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF33C51EF07A3F00A8930F /* JustinHe.swift */; };
+		31EF33CA1EF0909900A8930F /* FaeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF33C91EF0909900A8930F /* FaeSearchBar.swift */; };
+		5D320E0395AC2A1FCC327563 /* Pods_FaeContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F700E7B934927637BEBFD995 /* Pods_FaeContacts.framework */; };
+		A61A5B251EF1D7B7003CF0DD /* FaeReceivedRequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61A5B241EF1D7B7003CF0DD /* FaeReceivedRequestsCell.swift */; };
+		A61A5B271EF1D7CB003CF0DD /* FaeRequestedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61A5B261EF1D7CB003CF0DD /* FaeRequestedCell.swift */; };
+		A6BAE7C51EFCB9AC00A074F4 /* wenjia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAE7C41EFCB9AC00A074F4 /* wenjia.swift */; };
+		B87372EE1EF9D01500AB093D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87372ED1EF9D01500AB093D /* HTTPClient.swift */; };
+		B87372F01EF9D02200AB093D /* FaeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87372EF1EF9D02200AB093D /* FaeUser.swift */; };
+		B87372F31EF9D0D100AB093D /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87372F11EF9D0D100AB093D /* Keys.swift */; };
+		B87372F41EF9D0D100AB093D /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87372F21EF9D0D100AB093D /* LocalStorageManager.swift */; };
+		B8849EF01EF06E9200D4588D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849EEF1EF06E9200D4588D /* AppDelegate.swift */; };
+		B8849EF21EF06E9200D4588D /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849EF11EF06E9200D4588D /* ContactsViewController.swift */; };
+		B8849EF71EF06E9200D4588D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8849EF61EF06E9200D4588D /* Assets.xcassets */; };
+		B8849EFA1EF06E9200D4588D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8849EF81EF06E9200D4588D /* LaunchScreen.storyboard */; };
+		B8849F041EF06F1500D4588D /* ScreenFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F031EF06F1500D4588D /* ScreenFactor.swift */; };
+		B8849F071EF06F3F00D4588D /* UIColor+faeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F051EF06F3F00D4588D /* UIColor+faeColor.swift */; };
+		B8849F081EF06F3F00D4588D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F061EF06F3F00D4588D /* UIViewExtension.swift */; };
+		B8849F0A1EF0719B00D4588D /* FaeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F091EF0719B00D4588D /* FaeNavBar.swift */; };
+		B8849F341EF0E06600D4588D /* YingChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F331EF0E06600D4588D /* YingChen.swift */; };
+		B8849F371EF0F9EC00D4588D /* FaeContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F361EF0F9EC00D4588D /* FaeContactsCell.swift */; };
+		B8849F591EF4562C00D4588D /* ScrollingIndicatorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8849F581EF4562C00D4588D /* ScrollingIndicatorChange.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		314008C51EFC8DD700F35C1B /* AddFromContactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFromContactsController.swift; sourceTree = "<group>"; };
+		3141AAD21EF9DC2300E365D0 /* FaeAddUsernameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeAddUsernameCell.swift; sourceTree = "<group>"; };
+		3143BCAF1EFB3D7300CEC921 /* FaeContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeContact.swift; sourceTree = "<group>"; };
+		3184BF841EF1EF9B006AE254 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		31C0968D1EF3125700EF8962 /* FaeRecommendedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeRecommendedCell.swift; sourceTree = "<group>"; };
+		31C0968F1EF31ACD00EF8962 /* FaeAddFriendOptionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeAddFriendOptionsCell.swift; sourceTree = "<group>"; };
+		31CA5ADD1EF330F500F062B0 /* AddUsernameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUsernameController.swift; sourceTree = "<group>"; };
+		31EF33C51EF07A3F00A8930F /* JustinHe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustinHe.swift; sourceTree = "<group>"; };
+		31EF33C91EF0909900A8930F /* FaeSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeSearchBar.swift; sourceTree = "<group>"; };
+		3A3A7F996578B2D36C6CC59D /* Pods-FaeContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaeContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaeContacts/Pods-FaeContacts.release.xcconfig"; sourceTree = "<group>"; };
+		9A7EDAC79220760B1A1FAD70 /* Pods-FaeContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaeContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaeContacts/Pods-FaeContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		A61A5B241EF1D7B7003CF0DD /* FaeReceivedRequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeReceivedRequestsCell.swift; sourceTree = "<group>"; };
+		A61A5B261EF1D7CB003CF0DD /* FaeRequestedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeRequestedCell.swift; sourceTree = "<group>"; };
+		A6BAE7C41EFCB9AC00A074F4 /* wenjia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wenjia.swift; sourceTree = "<group>"; };
+		B87372ED1EF9D01500AB093D /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B87372EF1EF9D02200AB093D /* FaeUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeUser.swift; sourceTree = "<group>"; };
+		B87372F11EF9D0D100AB093D /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		B87372F21EF9D0D100AB093D /* LocalStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		B8849EEC1EF06E9200D4588D /* FaeContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaeContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8849EEF1EF06E9200D4588D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8849EF11EF06E9200D4588D /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		B8849EF61EF06E9200D4588D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8849EF91EF06E9200D4588D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8849EFB1EF06E9200D4588D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8849F031EF06F1500D4588D /* ScreenFactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenFactor.swift; sourceTree = "<group>"; };
+		B8849F051EF06F3F00D4588D /* UIColor+faeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+faeColor.swift"; sourceTree = "<group>"; };
+		B8849F061EF06F3F00D4588D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B8849F091EF0719B00D4588D /* FaeNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeNavBar.swift; sourceTree = "<group>"; };
+		B8849F331EF0E06600D4588D /* YingChen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingChen.swift; sourceTree = "<group>"; };
+		B8849F361EF0F9EC00D4588D /* FaeContactsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaeContactsCell.swift; sourceTree = "<group>"; };
+		B8849F581EF4562C00D4588D /* ScrollingIndicatorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingIndicatorChange.swift; sourceTree = "<group>"; };
+		F700E7B934927637BEBFD995 /* Pods_FaeContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaeContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8849EE91EF06E9200D4588D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D320E0395AC2A1FCC327563 /* Pods_FaeContacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C096881EF311ED00EF8962 /* Cells - Justin */ = {
+			isa = PBXGroup;
+			children = (
+				31C0968D1EF3125700EF8962 /* FaeRecommendedCell.swift */,
+				3141AAD21EF9DC2300E365D0 /* FaeAddUsernameCell.swift */,
+				31C0968F1EF31ACD00EF8962 /* FaeAddFriendOptionsCell.swift */,
+			);
+			name = "Cells - Justin";
+			sourceTree = "<group>";
+		};
+		A61A5B231EF1D774003CF0DD /* Cells - Wenjia */ = {
+			isa = PBXGroup;
+			children = (
+				B8849F361EF0F9EC00D4588D /* FaeContactsCell.swift */,
+				A61A5B241EF1D7B7003CF0DD /* FaeReceivedRequestsCell.swift */,
+				A61A5B261EF1D7CB003CF0DD /* FaeRequestedCell.swift */,
+			);
+			name = "Cells - Wenjia";
+			sourceTree = "<group>";
+		};
+		B8849EE31EF06E9200D4588D = {
+			isa = PBXGroup;
+			children = (
+				B8849EEE1EF06E9200D4588D /* FaeContacts */,
+				B8849EED1EF06E9200D4588D /* Products */,
+				CCEC5B829CC735C518FD4626 /* Pods */,
+				C690CA1789215A5D57D4B80F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8849EED1EF06E9200D4588D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8849EEC1EF06E9200D4588D /* FaeContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8849EEE1EF06E9200D4588D /* FaeContacts */ = {
+			isa = PBXGroup;
+			children = (
+				B8849EEF1EF06E9200D4588D /* AppDelegate.swift */,
+				3143BCAF1EFB3D7300CEC921 /* FaeContact.swift */,
+				B8849EF11EF06E9200D4588D /* ContactsViewController.swift */,
+				B8849F331EF0E06600D4588D /* YingChen.swift */,
+				31EF33C51EF07A3F00A8930F /* JustinHe.swift */,
+				3184BF841EF1EF9B006AE254 /* AddFriendViewController.swift */,
+				31CA5ADD1EF330F500F062B0 /* AddUsernameController.swift */,
+				314008C51EFC8DD700F35C1B /* AddFromContactsController.swift */,
+				B8849F581EF4562C00D4588D /* ScrollingIndicatorChange.swift */,
+				A6BAE7C41EFCB9AC00A074F4 /* wenjia.swift */,
+				31C096881EF311ED00EF8962 /* Cells - Justin */,
+				A61A5B231EF1D774003CF0DD /* Cells - Wenjia */,
+				B8849EF61EF06E9200D4588D /* Assets.xcassets */,
+				B8849EF81EF06E9200D4588D /* LaunchScreen.storyboard */,
+				B8849EFB1EF06E9200D4588D /* Info.plist */,
+				B8849F351EF0ECEE00D4588D /* Support */,
+			);
+			path = FaeContacts;
+			sourceTree = "<group>";
+		};
+		B8849F351EF0ECEE00D4588D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B87372EF1EF9D02200AB093D /* FaeUser.swift */,
+				B87372ED1EF9D01500AB093D /* HTTPClient.swift */,
+				B87372F11EF9D0D100AB093D /* Keys.swift */,
+				B87372F21EF9D0D100AB093D /* LocalStorageManager.swift */,
+				31EF33C91EF0909900A8930F /* FaeSearchBar.swift */,
+				B8849F031EF06F1500D4588D /* ScreenFactor.swift */,
+				B8849F051EF06F3F00D4588D /* UIColor+faeColor.swift */,
+				B8849F061EF06F3F00D4588D /* UIViewExtension.swift */,
+				B8849F091EF0719B00D4588D /* FaeNavBar.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C690CA1789215A5D57D4B80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F700E7B934927637BEBFD995 /* Pods_FaeContacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEC5B829CC735C518FD4626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A7EDAC79220760B1A1FAD70 /* Pods-FaeContacts.debug.xcconfig */,
+				3A3A7F996578B2D36C6CC59D /* Pods-FaeContacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8849EEB1EF06E9200D4588D /* FaeContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8849EFE1EF06E9200D4588D /* Build configuration list for PBXNativeTarget "FaeContacts" */;
+			buildPhases = (
+				7C4A20F211774036C9D99E14 /* [CP] Check Pods Manifest.lock */,
+				B8849EE81EF06E9200D4588D /* Sources */,
+				B8849EE91EF06E9200D4588D /* Frameworks */,
+				B8849EEA1EF06E9200D4588D /* Resources */,
+				0FF6F3BC2E6C714110B1F1CD /* [CP] Embed Pods Frameworks */,
+				5E5E16F3E6B0842170778862 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaeContacts;
+			productName = FaeContacts;
+			productReference = B8849EEC1EF06E9200D4588D /* FaeContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8849EE41EF06E9200D4588D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yue;
+				TargetAttributes = {
+					B8849EEB1EF06E9200D4588D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J9H8DRZ5QS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8849EE71EF06E9200D4588D /* Build configuration list for PBXProject "FaeContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8849EE31EF06E9200D4588D;
+			productRefGroup = B8849EED1EF06E9200D4588D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8849EEB1EF06E9200D4588D /* FaeContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8849EEA1EF06E9200D4588D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8849EFA1EF06E9200D4588D /* LaunchScreen.storyboard in Resources */,
+				B8849EF71EF06E9200D4588D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF6F3BC2E6C714110B1F1CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaeContacts/Pods-FaeContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5E16F3E6B0842170778862 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaeContacts/Pods-FaeContacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4A20F211774036C9D99E14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8849EE81EF06E9200D4588D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87372F01EF9D02200AB093D /* FaeUser.swift in Sources */,
+				B8849F591EF4562C00D4588D /* ScrollingIndicatorChange.swift in Sources */,
+				B8849F081EF06F3F00D4588D /* UIViewExtension.swift in Sources */,
+				B8849F371EF0F9EC00D4588D /* FaeContactsCell.swift in Sources */,
+				B8849F041EF06F1500D4588D /* ScreenFactor.swift in Sources */,
+				31CA5ADE1EF330F500F062B0 /* AddUsernameController.swift in Sources */,
+				B87372F41EF9D0D100AB093D /* LocalStorageManager.swift in Sources */,
+				A61A5B271EF1D7CB003CF0DD /* FaeRequestedCell.swift in Sources */,
+				3141AAD31EF9DC2300E365D0 /* FaeAddUsernameCell.swift in Sources */,
+				31C096901EF31ACD00EF8962 /* FaeAddFriendOptionsCell.swift in Sources */,
+				314008C61EFC8DD700F35C1B /* AddFromContactsController.swift in Sources */,
+				B8849EF21EF06E9200D4588D /* ContactsViewController.swift in Sources */,
+				A6BAE7C51EFCB9AC00A074F4 /* wenjia.swift in Sources */,
+				B87372F31EF9D0D100AB093D /* Keys.swift in Sources */,
+				3143BCB01EFB3D7300CEC921 /* FaeContact.swift in Sources */,
+				A61A5B251EF1D7B7003CF0DD /* FaeReceivedRequestsCell.swift in Sources */,
+				31EF33C61EF07A3F00A8930F /* JustinHe.swift in Sources */,
+				B8849EF01EF06E9200D4588D /* AppDelegate.swift in Sources */,
+				B8849F0A1EF0719B00D4588D /* FaeNavBar.swift in Sources */,
+				B8849F071EF06F3F00D4588D /* UIColor+faeColor.swift in Sources */,
+				31C0968E1EF3125700EF8962 /* FaeRecommendedCell.swift in Sources */,
+				B87372EE1EF9D01500AB093D /* HTTPClient.swift in Sources */,
+				31EF33CA1EF0909900A8930F /* FaeSearchBar.swift in Sources */,
+				B8849F341EF0E06600D4588D /* YingChen.swift in Sources */,
+				3184BF851EF1EF9B006AE254 /* AddFriendViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8849EF81EF06E9200D4588D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8849EF91EF06E9200D4588D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8849EFC1EF06E9200D4588D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8849EFD1EF06E9200D4588D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8849EFF1EF06E9200D4588D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7EDAC79220760B1A1FAD70 /* Pods-FaeContacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9H8DRZ5QS;
+				INFOPLIST_FILE = FaeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fae.contact.FaeContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B8849F001EF06E9200D4588D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3A7F996578B2D36C6CC59D /* Pods-FaeContacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9H8DRZ5QS;
+				INFOPLIST_FILE = FaeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fae.contact.FaeContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8849EE71EF06E9200D4588D /* Build configuration list for PBXProject "FaeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8849EFC1EF06E9200D4588D /* Debug */,
+				B8849EFD1EF06E9200D4588D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8849EFE1EF06E9200D4588D /* Build configuration list for PBXNativeTarget "FaeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8849EFF1EF06E9200D4588D /* Debug */,
+				B8849F001EF06E9200D4588D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8849EE41EF06E9200D4588D /* Project object */;
+}
